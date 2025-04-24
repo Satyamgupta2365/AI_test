@@ -21,7 +21,6 @@ The LLM will:
 
 ## 🏗️ High-Level Architecture
 
-```mermaid
 flowchart TD
     A[📝 User Input (Test Description)] --> B[🤖 LLM (Groq - LLaMA 3)]
     B --> C[🧪 Generate Test Cases]
@@ -30,7 +29,7 @@ flowchart TD
     E --> F[✅ Test Execution]
     F --> G[📸 Results / Screenshots]
     G --> H[🧠 Optional Validation (Google Search)]
-""" 
+
 
 ### 🧩 Tech Stack
 - **Language**: Python 🐍
