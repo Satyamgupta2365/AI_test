@@ -110,7 +110,7 @@ MIT License.
 ---
 
 ## 📬 Contact
-Feel free to reach out via [LinkedIn](https://linkedin.com/in/your-profile) or raise an issue.
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/satyam-gupta-41606a28a/) or raise an issue.
 
 Happy testing! 🎯
 
