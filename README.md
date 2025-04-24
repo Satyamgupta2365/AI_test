@@ -21,14 +21,17 @@ The LLM will:
 ---
 
 ## 🏗️ High-Level Architecture
-flowchart TD
-    A[📝 User Input (Test Description)] --> B[🤖 LLM (Groq - LLaMA 3)]
-    B --> C[🧪 Generate Test Cases]
-    C --> D[🌐 Selenium (Undetected ChromeDriver)]
-    D --> E[🔍 Website Interaction]
-    E --> F[✅ Test Execution]
-    F --> G[📸 Results / Screenshots]
-    G --> H[🧠 Optional Validation (Google Search)]
+
+```mermaid
+graph TD
+    A[User Input (Test Description)] --> B[LLM (Groq - LLaMA 3)]
+    B --> C[Generate Test Cases]
+    C --> D[Selenium (undetected_chromedriver)]
+    D --> E[Website (Target URL)]
+    E --> F[Test Execution]
+    F --> G[Results / Screenshots]
+    G --> H[Validation (Optional Google Search)]
+
 
 ### 🧩 Tech Stack
 - **Language**: Python 🐍
