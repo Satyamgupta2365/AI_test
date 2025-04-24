@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Website Testing Automation
+# AI-Powered Website Testing Automation
 
 This repository automates the end-to-end process of website testing using LLMs and Selenium. It allows users to simply input a website and a task/query, and the AI will:
 
